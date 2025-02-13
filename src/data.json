@@ -1,0 +1,19 @@
+{
+    "introduction": {
+        "text" : "Hello! I'm Saubhagya Tandon, a passionate third-year IT engineering student with a strong interest in software development. I have a deep love for coding and enjoy the challenge of solving complex problems through innovative solutions. I am constantly learning and striving to improve my skills, with a keen eye on current industry trends. Welcome to my portfolio, where you can explore my projects and learn more about my journey in the tech world."
+    },
+    "education":[
+        {
+            "title":"X from CBSE (2020)",
+            "marks":"Marks scored - 91%"
+        },
+        {
+            "title":"XII from CBSE (2022)",
+            "marks":"Marks scored - 95.6%"
+        },
+        {
+            "title":"B.Tech IT from VIT Vellore (2022-2026)",
+            "marks":"Cgpa - 8.91"
+        }
+    ]
+}
