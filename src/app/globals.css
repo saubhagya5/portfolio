@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+    overflow-x: hidden;
+  }
+  
+::-webkit-scrollbar {
+    width: 4px; /* Adjust width */
+    height: 4px; /* Adjust height */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000000; /* Background of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #8b59ab; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounding of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8b59ab; /* Color when hovering over the scrollbar thumb */
+  }

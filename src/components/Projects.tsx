@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
       <h2 className="text-3xl font-bold mb-6">My Projects</h2>
       
       {/* Outer wrapper with horizontal scrolling */}
-      <div className="w-full h-[500px] overflow-auto scrollbar-thin scrollbar-thumb-[#1d70a2] scrollbar-track-transparent">
+      <div className="w-full h-[500px] overflow-auto scrollbar-thin scrollbar-thumb-[#236585] scrollbar-track-transparent">
         <div className="flex flex-nowrap space-x-6 p-4">
           {projects.map((project, index) => (
             <div
