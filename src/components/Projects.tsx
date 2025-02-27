@@ -3,24 +3,28 @@ import Image from 'next/image';
 
 const projects = [
   {
-    title: 'Game Development with Pygame',
-    description: 'Developed classic games like Tetris, Snake, and Flappy Bird using Pygame, enhancing logic-building and problem-solving skills in coding.',
-    img: '/images/pygame.png' ,
+    title: 'Pygame workshop',
+    description: 'I hosted a Pygame workshop for 250 participants, teaching coding fundamentals through game development. I guided them in building a game using Pygame, making learning interactive and fun.',
+    img: '/images/pygame.jpg',
+    link: 'https://github.com/saubhagya5/pygame-event-ISTE'
   },
   {
-    title: 'ISTE Project Cycle – Web App for Architectural Planning',
-    description: 'Led frontend development and implemented preprocessing techniques with OpenCV for a web app utilizing ML GAN models to assist in architectural planning.',
-    img: '/images/archi.jpg'
+    title: 'Cryptic Hunt',
+    description: 'Developed the backend for Cryptic Hunt, a Treasure Hunt event app used during my college fest under ACM. Built with Go Fiber, it handled user authentication, team management, and clue progression, ensuring a seamless experience with secure APIs and real-time updates.',
+    img: '/images/cryptichunt.jpg',
+    link: 'https://cryptichunt.acmvit.in/'
   },
   {
-    title: 'Acad – Online Class Platform (Ongoing)',
-    description: 'Developing an online learning platform featuring video conferencing with automatic note generation, online quizzes, course material uploads, and assignment submissions.',
-    img: '/images/onli.jpg'
+    title: 'QuizMeOn',
+    description: 'Built Quiz Me using Next.js and the Gemini API to generate custom quizzes. Users can create and share quizzes with friends for an interactive experience.',
+    img: '/images/quizmeon.jpg',
+    link: "https://quiz-me-on.vercel.app/"
   },
   {
     title: 'Wearable IoT for Stress & Stroke Prediction (Research Paper – Ongoing)',
     description: 'Conducting research and writing a paper on a wearable IoT device designed to detect stress and physiological indicators, aiming to predict and prevent unforeseen strokes.',
-    img: '/images/iot.jpg'
+    img: '/images/iot.jpg',
+    link: ""
   },
 ];
 
@@ -28,7 +32,7 @@ const Projects: React.FC = () => {
   return (
     <div className="flex flex-col items-center text-white p-6 w-full h-screen">
       <h2 className="text-3xl font-bold mb-6">My Projects</h2>
-      
+
       {/* Outer wrapper with horizontal scrolling */}
       <div className="w-full h-[500px] overflow-auto scrollbar-thin scrollbar-thumb-[#236585] scrollbar-track-transparent">
         <div className="flex flex-nowrap space-x-6 p-4">
@@ -50,10 +54,24 @@ const Projects: React.FC = () => {
 
               {/* Content (Bottom Half) */}
               <div className="p-4 flex flex-col h-1/2 justify-center">
-                    <Image src="/bg.png" alt="" layout="fill" objectFit="cover" className="rounded-3xl" />
                 <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
                 <p className="text-sm text-neutral-300">{project.description}</p>
               </div>
+
+              {/* Link Icon */}
+              {project.link && (
+                <div className='flex justify-center align-middle w-full p-3'>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    <Image 
+                      src="/logos/link.png" 
+                      alt="Project Link"  
+                      width={30} 
+                      height={30} 
+                      className='opacity-50 hover:opacity-100 transition-opacity duration-200'
+                    />
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>
