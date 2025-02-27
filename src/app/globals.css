@@ -8,7 +8,7 @@ html, body {
   
 ::-webkit-scrollbar {
     width: 4px; /* Adjust width */
-    height: 4px; /* Adjust height */
+    height: 6px; /* Adjust height */
   }
   
   ::-webkit-scrollbar-track {

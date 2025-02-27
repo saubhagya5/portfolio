@@ -13,11 +13,11 @@ function Education() {
                 X from CBSE (2020)
                 <div className="text-tiny">Marks scored - 91%</div>
                 </div>
-                <div className="bg-darkpurple bg-opacity-30 text-xs rounded-xl p-1 px-3 my-2 ">
+                <div className="bg-darkpurple bg-opacity-30 text-xs  rounded-xl p-1 px-3 my-2 ">
                 XII from CBSE (2022)
                 <div className="text-tiny">Marks scored - 95.6%</div>
                 </div>
-                <div className="bg-darkpurple bg-opacity-30 text-xs rounded-xl p-1 px-3 my-2">
+                <div className="bg-darkpurple bg-opacity-30 text-xs  rounded-xl p-1 px-3 my-2">
                 B.Tech IT from VIT Vellore (2022-2026) 
                 <div className="text-tiny">Cgpa - 8.91</div>
                 </div>

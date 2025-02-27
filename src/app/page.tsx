@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       <div className="min-h-full px-4 py-10 bg-black">
         {/* Hero Section */}
-        <Hero className="relative z-10 w-full flex flex-col items-center" />
+        <Hero  />
 
         {/* Projects Section */}
         <Projects />

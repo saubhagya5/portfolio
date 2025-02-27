@@ -10,7 +10,7 @@ function Introduction() {
         <div className="font-sans font-bold text-xxl text-neutral-200 mb-2 mt-2">
           Introduction
         </div>
-        <div className="font-sans font-normal text-tiny md:text-xs text-neutral-300">
+        <div className="font-sans font-normal text-xs md:text-sm text-neutral-300">
           {introduction.text}
         </div>
       </div>
