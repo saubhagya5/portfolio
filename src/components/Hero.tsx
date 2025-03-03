@@ -1,10 +1,11 @@
 "use client"
 import React, { useState , useEffect} from 'react'
 import { WavyBackground } from './ui/wavy-background'
-import { Vortex } from './ui/vortex'
 import HeroText from './HeroText'
-import { MovingBorder } from './ui/moving-border'
+
+
 import MagicButton from './ui/magin-button'
+
 
 function Hero() {
   const [showButton, setShowButton] = useState(false);
