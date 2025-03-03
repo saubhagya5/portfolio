@@ -21,10 +21,10 @@ const projects = [
     link: "https://quiz-me-on.vercel.app/"
   },
   {
-    title: 'Wearable IoT for Stress & Stroke Prediction (Research Paper – Ongoing)',
-    description: 'Conducting research and writing a paper on a wearable IoT device designed to detect stress and physiological indicators, aiming to predict and prevent unforeseen strokes.',
-    img: '/images/iot.jpg',
-    link: ""
+    title: 'Udhaar - An Expense Tracker',
+    description: 'Udhaar is a MERN stack-based expense-tracking app that simplifies shared spending. With Google Authentication, users can create groups, add friends, track expenses, and split costs effortlessly.',
+    img: '/images/udhaar.png',
+    link: "https://udhaar-d2lz.vercel.app/"
   },
 ];
 
