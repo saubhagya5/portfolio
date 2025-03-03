@@ -21,9 +21,7 @@ function Hero() {
   return (
       <WavyBackground colors={["#6eaff0","#8b59ab","#074c91","#7a5cb5","#3a3987"]} className='flex flex-col  max-w-full justify-center items-center'>
         <HeroText/>
-        <a href="/about">
           {showButton && <MagicButton />}
-        </a>
       </WavyBackground>
   )
 }
