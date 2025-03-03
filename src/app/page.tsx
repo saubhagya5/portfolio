@@ -18,8 +18,9 @@ export default function Home() {
         <Hero  />
 
         {/* Projects Section */}
+        <section id="project">
         <Projects />
-
+        </section>
         {/* About Me Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-10 p-4 bg-black relative w-full">
           {/* Section Title */}

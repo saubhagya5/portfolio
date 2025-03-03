@@ -18,3 +18,4 @@ export default function TechStackComponent({ src, name }: TechStackProps) {
     </div>
   );
 }
+

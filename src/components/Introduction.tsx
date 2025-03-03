@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import {introduction} from '../data.json'
+import json from '../data.json'
 
 function Introduction() {
   return (
@@ -11,7 +11,7 @@ function Introduction() {
           Introduction
         </div>
         <div className="font-sans font-normal text-xs md:text-sm text-neutral-300">
-          {introduction.text}
+          {json.introduction.text}
         </div>
       </div>
     </div>
