@@ -4,17 +4,8 @@ import Image from 'next/image';
 function Socials() {
   return (
     <div className="relative h-44 col-span-1 md:col-span-2 bg-black p-4 rounded-3xl group hover:shadow-xl transition duration-200 shadow-input border border-white/[0.2] flex flex-col space-y-4 overflow-hidden">
-      {/* Background Image */}
-      <Image 
-        src="/bg.png" 
-        alt="Background Image" 
-        layout="fill" 
-        objectFit="cover" 
-        className="absolute inset-0 rounded-3xl opacity-30" 
-      />
-
-      {/* Content */}
-      <div className="relative z-10 group-hover:translate-x-2 transition duration-200">
+       <Image src="/bg.png" alt="" layout="fill" objectFit="cover" className="rounded-3xl" />
+      <div className="group-hover:translate-x-2 transition duration-200">
         <div className="font-sans font-bold text-2xl text-neutral-200 mb-2 mt-2">
           Socials
         </div>
